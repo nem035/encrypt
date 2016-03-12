@@ -13,6 +13,9 @@ Simple node command line utility that encrypts and decrypts strings using [AES-2
    
    The usage is: `crypt <method> <stringToTransform> <aesKey>`
    
+   *The method flags are `-e` for encrypt and `-d` for decrypt. 
+   The flag is mandatory but can be added at any point.
+   
 ## Examples  
 
 - Encrypt a string.
